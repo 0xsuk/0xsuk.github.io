@@ -1,0 +1,10 @@
+{{- $enable := and (default true .Params.toc) (default true .Site.Params.toc) -}}
+{{- $wordCount := default 280 .Site.Params.tocWordCount -}}
+{{- $toc := .TableOfContents -}}
+{{- $valid := and $toc (and (ne $toc "<nav id=\"TableOfContents\"></nav>") (gt .WordCount $wordCount)) -}}
+{{- if and $enable $valid -}}
+<div class="post-toc mb-4" id="postTOC">
+  <h2 class="mb-4">{{ i18n "table_of_contents" }}</h2>
+  {{ $toc }}
+</div>
+{{- end -}}

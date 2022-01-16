@@ -1,0 +1,20 @@
+<aside class="col-lg-4 sidebar d-flex">
+  <div class="container">
+    {{ partial "hooks/sidebar-begin" . }} {{ partial "sidebar/main" . }} {{
+    partial "hooks/sidebar-end" . }}
+    {{- $enable := and (default true .Params.toc) (default true .Site.Params.toc) -}}
+{{- $wordCount := default 280 .Site.Params.tocWordCount -}}
+{{- $toc := .TableOfContents -}}
+{{- $valid := and $toc (and (ne $toc "<nav id=\"TableOfContents\"></nav>") (gt .WordCount $wordCount)) -}}
+{{- if and $enable $valid -}}
+    <section class="row card component" style="position: sticky; top: 10px">
+      <div class="card-header">
+        <h2 class="card-title">Table of Contents</h2>
+      </div>
+      <div class="card-body" style="max-height: 80vh; overflow-y: scroll">
+        {{ partial "post/toc.html" . }}
+      </div>
+    </section>
+    {{- end -}}
+  </div>
+</aside>
