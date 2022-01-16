@@ -1,6 +1,5 @@
 +++
 title = "About"
-author = "suk"
 reward = false
 postDate = false
 readingTime = false

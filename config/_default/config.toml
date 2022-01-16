@@ -1,7 +1,7 @@
 baseURL = "https://0xsuk.github.io/"
 title = "0xsuk"
 theme = "hugo-theme-bootstrap"
-copyright = "Copyright © {year} suk. All Rights Reserved."
+copyright = "Copyright © {year} 0xsuk. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "ja"

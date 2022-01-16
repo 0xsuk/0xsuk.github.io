@@ -3,7 +3,7 @@ comment = true
 
 titleSeparator = "|" # Title separator. Default to "-".
 
-description = "suk's blog"
+description = "0xsuk's blog"
 keywords = "Cybersecurity, CTF"
 images = ["images/profile.png"]
 
