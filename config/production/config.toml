@@ -1,2 +1,2 @@
 baseURL = "https://0xsuk.github.io/"
-googleAnalytics = "G-NST1PH6052"
+# googleAnalytics = "this is directly set in layouts/partials/head.html"
