@@ -82,7 +82,7 @@ viewer = true # Image Viewer
 
 # Site verification
 [siteVerification]
-  google = "igqKg0lLXyRGFePZai1q3LaDSDY60VmNrQ-S7Wd9a1c"
+  google = ""
   bing = ""
   baidu = ""
   baiduUnion = "" # Baidu Union
