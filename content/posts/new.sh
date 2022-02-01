@@ -6,5 +6,5 @@ else
     mkdir -p $cmd
     cd ../../
     hugo new posts/${cmd}/index.md
-    hugo new posts/${cmd}/index.en.md.archive
+    hugo new posts/${cmd}/_index.en.md
 fi

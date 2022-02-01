@@ -2,12 +2,12 @@
 title = ""
 date = {{ .Date }}
 draft = false
-comment = true
+comment = false 
 toc = true
 reward = true
 pinned = false
 featured = false
-math = false
+math = true 
 categories = [
 ]
 tags = [
