@@ -10,48 +10,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/archives
-  label: Archives
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/categories
-  label: Categories
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/faq
-  label: Faq
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/offline
-  label: Offline
-  create: all
-  match: "**/*"
-- type: directory
   path: content/posts
   label: Posts
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/search
-  label: Search
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/series
-  label: Series
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/tags
-  label: Tags
   create: all
   match: "**/*"
 - type: directory
