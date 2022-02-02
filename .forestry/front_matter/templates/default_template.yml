@@ -5,6 +5,10 @@ fields:
 - type: text
   name: title
   label: title
+- name: draft
+  type: boolean
+  label: draft
+  default: true
 - type: datetime
   name: date
   label: date
@@ -39,5 +43,3 @@ fields:
   type: image_gallery
   config: {}
   label: images
-pages:
-- content/posts/2022/02/01/index.md
