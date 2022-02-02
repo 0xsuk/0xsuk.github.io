@@ -1,11 +1,18 @@
 +++
-title = "About"
-reward = false
+comment = false
 postDate = false
 readingTime = false
-comment = false
+reward = false
+title = "About"
+
 +++
+I'm 17 yo self taught programmer from Japan learning:
 
-# Whoami
+* Web Development (React / Node.js / Golang)
+* Machine Learning / Statistics
+* Chinese (as a third language)
+* Cyber Security / CTFs (HackTheBox/TryHackMe)
 
-A script kiddie who studies Cybersecurity, CTF, Statistics, Machine Learning, and Chinese.
+I'm into indie making now🚀
+
+Follow my journey to build a micro startup on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
