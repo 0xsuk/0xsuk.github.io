@@ -47,4 +47,5 @@ fields:
   config: {}
   label: imgs
 pages:
+- content/index.md
 - content/posts/2022/02/01/index.md
