@@ -35,16 +35,9 @@ fields:
 - type: list
   name: series
   label: series
-- type: list
-  name: images
-  label: images
-  config:
-    use_select: false
-    source:
-      type: simple
-- name: imgs
+- name: images
   type: image_gallery
   config: {}
-  label: imgs
+  label: images
 pages:
 - content/posts/2022/02/01/index.md
