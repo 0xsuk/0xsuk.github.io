@@ -5,6 +5,8 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - name: images
   type: image_gallery
   config: {}
@@ -20,6 +22,7 @@ fields:
   name: toc
   label: toc
   default: true
+  hidden: true
 - type: boolean
   name: reward
   label: reward
