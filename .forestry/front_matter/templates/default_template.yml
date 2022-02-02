@@ -42,10 +42,9 @@ fields:
     use_select: false
     source:
       type: simple
-- name: img
-  type: file
-  config:
-    maxSize: 64
-  label: img
+- name: imgs
+  type: image_gallery
+  config: {}
+  label: imgs
 pages:
 - content/posts/2022/02/01/index.md
