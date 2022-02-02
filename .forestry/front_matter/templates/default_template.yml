@@ -1,0 +1,40 @@
+---
+label: default_template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: comment
+  label: comment
+- type: boolean
+  name: toc
+  label: toc
+- type: boolean
+  name: reward
+  label: reward
+- type: boolean
+  name: pinned
+  label: pinned
+- type: boolean
+  name: featured
+  label: featured
+- type: boolean
+  name: math
+  label: math
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: series
+  label: series
+- type: list
+  name: images
+  label: images
