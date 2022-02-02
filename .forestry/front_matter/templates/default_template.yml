@@ -49,3 +49,5 @@ fields:
 - type: list
   name: series
   label: series
+pages:
+- content/posts/2022/02/02/index.md
