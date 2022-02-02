@@ -39,3 +39,5 @@ fields:
   type: image_gallery
   config: {}
   label: images
+pages:
+- content/posts/a.md
