@@ -5,12 +5,16 @@ date = ""
 draft = true
 featured = false
 images = []
-math = false
+math = true
 pinned = false
 reward = false
 series = []
 tags = []
 title = "いやなんでやねん"
-toc = false
+toc = true
 
 +++
+## IN the edn 
+a
+$$ A + B $$
+ = C
