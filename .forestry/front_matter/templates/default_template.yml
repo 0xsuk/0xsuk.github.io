@@ -5,10 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- name: draft
-  type: boolean
-  label: draft
-  default: false
 - type: datetime
   name: date
   label: date
