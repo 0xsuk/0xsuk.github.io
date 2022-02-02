@@ -4,13 +4,14 @@ comment = false
 date = 2022-02-02T04:23:23Z
 draft = true
 featured = false
-images = []
+images = ["/uploads/img_2022-02-02_ultimate_minesweeper.png"]
 math = true
-pinned = false
+pinned = true
 reward = true
 series = []
 tags = []
-title = "index"
+title = "This is also a test"
 toc = true
 
 +++
+# Com'on man
