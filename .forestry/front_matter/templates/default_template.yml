@@ -49,5 +49,3 @@ fields:
 - type: list
   name: series
   label: series
-pages:
-- content/posts/01.md
