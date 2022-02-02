@@ -45,3 +45,5 @@ fields:
 - type: list
   name: series
   label: series
+pages:
+- content/posts/index.md
