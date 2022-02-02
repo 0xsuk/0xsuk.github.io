@@ -1,7 +1,7 @@
 +++
 title = ""
 date = {{ .Date }}
-draft = false
+draft = true
 comment = false 
 toc = true
 reward = true
