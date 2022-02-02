@@ -6,7 +6,8 @@ fields:
   name: title
   config:
     required: true
-  label: heading
+  label: title
+  default: index
 - name: images
   type: image_gallery
   config: {}
@@ -48,11 +49,5 @@ fields:
 - type: list
   name: series
   label: series
-- name: _
-  type: text
-  config:
-    required: false
-  label: title
-  default: index
 pages:
 - content/posts/01.md
