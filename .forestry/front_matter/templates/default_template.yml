@@ -4,9 +4,9 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
   config:
     required: true
+  label: heading
 - name: images
   type: image_gallery
   config: {}
@@ -48,5 +48,11 @@ fields:
 - type: list
   name: series
   label: series
+- name: _
+  type: text
+  config:
+    required: false
+  label: title
+  default: index
 pages:
 - content/posts/heyjude.md
