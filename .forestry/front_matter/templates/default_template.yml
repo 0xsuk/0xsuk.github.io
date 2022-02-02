@@ -54,5 +54,3 @@ fields:
     required: false
   label: title
   default: index
-pages:
-- content/posts/heyjude.md
