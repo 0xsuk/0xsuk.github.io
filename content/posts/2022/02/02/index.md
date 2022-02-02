@@ -1,6 +1,6 @@
 +++
-title = "Hello World!"
-date = 2022-02-02T12:11:26+09:00
+title = "Test"
+date = 2022-02-02T12:14:07+09:00
 draft = false
 comment = false 
 toc = true
@@ -17,4 +17,4 @@ series = [
 images = []
 +++
 
-I'm building a git based CMS for static sites!
+## Just a little bit of test
