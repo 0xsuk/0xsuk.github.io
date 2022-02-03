@@ -4,7 +4,7 @@ comment = true
 titleSeparator = "|" # Title separator. Default to "-".
 
 description = "0xsuk's blog"
-keywords = "Cybersecurity, CTF"
+keywords = "Cybersecurity, CTF, Machine Learning, Indie making"
 images = ["images/profile.png"]
 
 # metaRobots = "noindex, nofollow" # Default value for Meta Tag "robots"
@@ -12,7 +12,7 @@ images = ["images/profile.png"]
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 logo = false # Disable Logo
-brand = "0xsuk"
+brand = "0xsuk's blog"
 
 palette = "black" # Default palette. Optional.
 # palettes = ["cyan", "pink"] # Available palettes. Default to ALL.

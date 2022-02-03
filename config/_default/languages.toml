@@ -1,8 +1,8 @@
-[ja]
-  languageName = "日本語"
-  weight = 1
-  [ja.params]
-    dateFormat = "2006-01-02"
+# [ja]
+#   languageName = "日本語"
+#   weight = 1
+#   [ja.params]
+#     dateFormat = "2006-01-02"
 
 [en]
   languageName = "English"

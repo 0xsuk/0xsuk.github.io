@@ -6,6 +6,13 @@ reward = false
 title = "About"
 
 +++
-# Whoami
+I'm 17 yo self taught programmer from Japan learning:
 
-サイバーセキュリティ、CTF、統計、機械学習、ネットワーク、中国語などを勉強している青少年です。twitterアカウントは~~学業専念のため停止中。~~[こちら](https://twitter.com/0xsuk "@0xsuk")。
+* Web Development (React / Node.js / Golang)
+* Machine Learning / Statistics
+* Chinese (as a third language)
+* Cyber Security / CTFs (HackTheBox/TryHackMe)
+
+I'm into indie making now🚀
+
+Follow my journey to build a micro startup on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
