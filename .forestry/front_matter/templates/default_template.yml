@@ -4,19 +4,31 @@ hide_body: false
 fields:
 - type: text
   name: title
+  config:
+    required: true
   label: title
+  default: index
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
 - type: datetime
   name: date
   label: date
+  default: now
 - type: boolean
   name: comment
   label: comment
 - type: boolean
   name: toc
   label: toc
+  default: true
+  hidden: true
 - type: boolean
   name: reward
   label: reward
+  default: true
+  hidden: true
 - type: boolean
   name: pinned
   label: pinned
@@ -26,6 +38,8 @@ fields:
 - type: boolean
   name: math
   label: math
+  default: true
+  hidden: true
 - type: list
   name: categories
   label: categories
@@ -35,6 +49,3 @@ fields:
 - type: list
   name: series
   label: series
-- type: list
-  name: images
-  label: images
