@@ -11,7 +11,7 @@ location = "Japan"
 
 [params]
   # layout = ""
-  layout = "compact"
+  layout = "default"
 
 [social]
   #email = ""

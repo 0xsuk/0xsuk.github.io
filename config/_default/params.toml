@@ -18,7 +18,7 @@ palette = "black" # Default palette. Optional.
 # palettes = ["cyan", "pink"] # Available palettes. Default to ALL.
 palettes = [] # Disable palette switcher.
 
-# color = "" # light, dark or dynamic. Default to dynamic.
+color = "dark" # light, dark or dynamic. Default to dynamic.
 
 # fullWidth = true # Full width.
 fixedHeader = false # Turn on/off fixed header.
