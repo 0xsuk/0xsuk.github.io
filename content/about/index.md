@@ -15,6 +15,4 @@ I'm 17 yo self taught programmer from Japan learning:
 
 I'm into indie making now🚀
 
-Trying to build the simplest headless CMS...!
-
 Follow my journey to build a micro startup on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
