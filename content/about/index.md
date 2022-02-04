@@ -6,7 +6,7 @@ reward = false
 title = "About"
 
 +++
-I'm 17 yo self taught programmer from Japan learning:
+I'm a 17 yo self taught programmer from Japan learning:
 
 * Web Development (React / Node.js / Golang)
 * Machine Learning / Statistics
