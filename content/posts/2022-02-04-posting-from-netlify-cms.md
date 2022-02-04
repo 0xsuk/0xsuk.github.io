@@ -8,3 +8,9 @@ Why netlify CMS sucks.
 1. poor rich text editor
 
 it doesn't support image pasting, preview
+
+2. complicated 
+
+   it took me a day to set it up. 
+
+   compared to forestry.io, it is too complicated
