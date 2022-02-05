@@ -49,3 +49,5 @@ fields:
 - type: list
   name: series
   label: series
+pages:
+- content/posts/build-your-own-markdown-editor.md
