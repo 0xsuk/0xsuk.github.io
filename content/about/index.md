@@ -15,4 +15,4 @@ I'm a 17 yo self taught programmer from Japan learning
 
 I'm into indie making now🚀
 
-Follow my journey to build a micro startup on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
+Follow my journey of building a micro startup (that is going to the moon\~) on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
