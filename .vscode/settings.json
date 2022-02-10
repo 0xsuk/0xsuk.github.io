@@ -1,0 +1,7 @@
+{
+    "frontMatter.dashboard.openOnStart": true,
+    "frontMatter.content.autoUpdateDate": false,
+    "frontMatter.preview.host": "https://localhost:1313",
+    "[markdown]": {
+    }
+}
