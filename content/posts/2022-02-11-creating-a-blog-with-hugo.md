@@ -1,21 +1,20 @@
-+++
-title = "creating a blog with Hugo"
-date = 2019-08-22T15:20:28.000Z
-draft = false
-comment = false 
-toc = true
-reward = true
-pinned = false
-featured = false
-math = false
-categories = [
-]
-tags = [
-]
-series = [
-]
-images = ["/uploads/2022-02-11-02-43-09.png"]
-+++
+---
+title: Creating a Blog with Hugo
+date: '2022-02-11T04:22:29.699Z'
+draft: false
+comment: false
+toc: true
+reward: true
+pinned: false
+featured: false
+math: true
+categories: null
+tags: null
+series: null
+images:
+    - /uploads/2022-02-11-02-43-09.png
+---
+
 
 ![](/uploads/2022-02-11-02-43-09.png)
 
