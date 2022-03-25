@@ -13,11 +13,14 @@ tags:
   - React.js
 series: null
 images:
+  - uploads/2022-03-25-12-13-39.png
 ---
 
 # Goal of this project
 
 Create simple markdown editor that works in browser. If I write strings in markdown format, React.js reads it, parses it, and displays preview.
+
+![GIF](/uploads/byome.gif)
 
 # Setup
 
@@ -36,7 +39,7 @@ packages I've included:
 
 and I'll explain each of the list later.
 
-You can clone it from "setup" branch from my [Github repo](https://github.com/0xsuk/byome) for this project.
+You can clone my "setup" branch of [Github repo](https://github.com/0xsuk/byome) for this project.
 
 ```bash
 git clone -b setup git@github.com/0xsuk/byome.git
@@ -76,7 +79,7 @@ As stated in https://github.com/unifiedjs/unified#description, unified comes up 
 
 In our case, we want to parse markdown to syntax tree first. So we use remark-parse as a parser. We parse doc to syntax tree, so that transformers such as remark-gfm can figure out where to approach.
 
-Second, we want additional functionality to our parser. There's a remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists), so we use this extension.
+Second, we want additional functionality to our parser. There's a remark plugin called remark-gfm to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists), so we use this extension.
 
 Third, we want to compile the syntax tree to React component. There's a package called rehype-react, which reads rehype syntax tree and compiles it into react component. However, rehype-react is only compatible with rehype syntax. So we transform remark syntax to rehype syntax using remark-rehype, and we compile rehype syntax to React component.
 
