@@ -16,13 +16,13 @@ images:
   - uploads/2022-03-25-12-13-39.png
 ---
 
-# Goal of this project
+## Goal of this project
 
 Create simple markdown editor that works in browser. If I write strings in markdown format, React.js reads it, parses it, and displays preview.
 
 ![GIF](/uploads/byome.gif)
 
-# Setup
+## Setup
 
 We are going to use Create React App.
 I created a starter for this tutorial, which is just a create-react-app with some files deleted and some npm package installed.
@@ -52,9 +52,9 @@ It says Hello byome
 
 ![](/uploads/2022-03-25-12-13-39.png)
 
-# Writing Code
+## Writing Code
 
-## Managing state
+### Managing state
 
 We are going to use useState to manage contents of markdown, namely doc.
 
@@ -66,7 +66,7 @@ function App() {
 }
 ```
 
-## Creating previewer
+### Creating previewer
 
 If doc changes, we want to read it, parse it and display preview of it.
 
@@ -135,7 +135,7 @@ Seems it's working!
 
 "# Hello byome" is successfully parsed into \<h1>Hello byome\</h1>
 
-## Creating editor
+### Creating editor
 
 We are goingt create a markdown editor using Codemirror 6.
 
