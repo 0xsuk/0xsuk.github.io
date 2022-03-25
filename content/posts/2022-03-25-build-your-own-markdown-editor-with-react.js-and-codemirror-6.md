@@ -43,7 +43,8 @@ You can clone my "setup" branch of [Github repo](https://github.com/0xsuk/byome)
 
 ```bash
 git clone -b setup git@github.com/0xsuk/byome.git
-cd setup
+cd byome
+npm i
 npm start
 ```
 
