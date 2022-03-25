@@ -48,7 +48,7 @@ npm i
 npm start
 ```
 
-It says Hellp byome
+It says Hello byome
 
 ![](/uploads/2022-03-25-12-13-39.png)
 
