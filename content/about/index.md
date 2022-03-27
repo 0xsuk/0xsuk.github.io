@@ -6,13 +6,12 @@ reward = false
 title = "About"
 
 +++
-I'm a 17 yo self taught programmer from Japan learning
+I'm a 17 years old self-taught programmer from Japan who loves technologies.
 
+Learning
 * Web Development (React / Node.js / Golang)
 * Machine Learning / Statistics
-* Chinese (as a third language)
 * Cyber Security / CTFs (HackTheBox/TryHackMe)
 
-I'm into indie making now🚀
-
-Follow my journey of building a micro startup (that is going to the moon\~) on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
+I'm building a CMS for static sites. 
+Catch me on [Twitter](https://twitter.com/0xsuk "@0xsuk")!
