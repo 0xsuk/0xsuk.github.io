@@ -14,7 +14,6 @@ series: null
 images:
   - /uploads/2022-02-11-02-43-09.png
 ---
-
 ![](/uploads/2022-02-11-02-43-09.png)
 
 ## Hugo - Static Site Generator
@@ -156,4 +155,4 @@ to name a few.
 
 OK, that's it for this article.
 
-By the way I'm building a Headless CMS that is _more_ suitable for static sites, so why not catch me on [twitter](https://twitter.com/0xsuk)?
+By the way I'm building a Headless CMS that is _more_ suitable for static sites, so why not catch me on [Twitter](https://twitter.com/0xsuk)?
