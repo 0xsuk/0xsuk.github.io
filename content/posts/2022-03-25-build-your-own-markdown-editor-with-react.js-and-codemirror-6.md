@@ -8,15 +8,19 @@ reward: true
 pinned: false
 featured: false
 math: true
-categories: null
+categories:
+  - Web Dev
 tags:
   - React.js
+  - build-your-own-x
 series: null
 images:
   - uploads/2022-03-25-12-13-39.png
 ---## Goal of this project
 
 Create simple markdown editor that works in browser. If I write strings in markdown format, React.js reads it, parses it, and displays preview.
+
+Github Link: https://github.com/0xsuk/byome
 
 ![GIF](/uploads/byome.gif)
 
