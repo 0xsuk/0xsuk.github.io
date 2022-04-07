@@ -78,11 +78,11 @@ unified is an interface for parsing, inspecting, transforming, and serializing c
 
 We parse doc using unified with some extensions, such as remark-parse, remark-rehype, remark-gfm, rehype-react.
 
-As stated in https://github.com/unifiedjs/unified#description, unified comes up with three parts: parser, transformer, and compiler.
+As stated in https://github.com/unifiedjs/unified#description, unified consists of three parts: parser, transformer, and compiler.
 
-In our case, we want to parse markdown to syntax tree first. So we use remark-parse as a parser. We parse doc to syntax tree, so that transformers such as remark-gfm can figure out where to approach.
+In our case, we want to parse markdown to syntax tree first. So we use remark-parse as a parser. We parse doc to syntax tree, so that transformers such as remark-gfm can figure out what to do.
 
-Second, we want additional functionality to our parser. There's a remark plugin called remark-gfm to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists), so we use this extension.
+Second, we want additional functionality to our parser. There's a remark plugin called remark-gfm for supporting GFM (autolink literals, footnotes, strikethrough, tables, tasklists), so we use this extension.
 
 Third, we want to compile the syntax tree to React component. There's a package called rehype-react, which reads rehype syntax tree and compiles it into react component. However, rehype-react is only compatible with rehype syntax. So we transform remark syntax to rehype syntax using remark-rehype, and we compile rehype syntax to React component.
 
