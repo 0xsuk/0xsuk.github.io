@@ -1,4 +1,4 @@
-baseURL = "https://0xsuk.com/"
+baseURL = "http://localhost:1313"
 title = "0xsuk's blog"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © {year} 0xsuk. All Rights Reserved."
