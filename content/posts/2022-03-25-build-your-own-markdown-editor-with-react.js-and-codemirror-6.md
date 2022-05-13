@@ -2,7 +2,7 @@
 title: Build your own markdown editor with React.js and Codemirror 6
 date: 2022-03-25T02:41:36.133Z
 draft: ""
-comment: false
+comment: true
 toc: true
 reward: true
 pinned: false
