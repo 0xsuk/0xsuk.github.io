@@ -2,7 +2,7 @@
 title: How to use Agit CMS
 date: 2022-06-03T12:50:21.000Z
 draft: false
-comment: true
+comment: false
 toc: true
 reward: false
 pinned: false
@@ -21,6 +21,8 @@ images:
 ![image](https://user-images.githubusercontent.com/97814789/171836599-b3d0a87e-186b-4bb6-afa6-049fc9c5bd3b.png)
 
 Here's a documentation of how to use Agit CMS.
+
+The project link: https://github.com/0xsuk/agitcms
 
 Only thing you need is a static site, powered by whatever "markdown based" static site generators like Hugo, Jekyll, Next.js, Gatsby.js and so on.
 
