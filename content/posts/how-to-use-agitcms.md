@@ -2,7 +2,7 @@
 title: How to use Agit CMS
 date: 2022-06-03T12:50:21.000Z
 draft: false
-comment: false
+comment: true
 toc: true
 reward: false
 pinned: false
