@@ -17,6 +17,9 @@ series: null
 images:
   - uploads/2022-03-25-12-13-39.png
 ---
+Hi suk here.  
+This post explains how to create markdown editor/previewer with React.js / Codemirror 6. I'm writing this down because I had to learn how to parse markdown syntax for my [static sites CMS project](https://github.com/0xsuk/agitcms).  Hope this post helps someone like me.  
+
 ## Goal of this project
 
 Let's create a simple markdown editor that works in your browser. If I write strings in markdown format, React.js reads it, parses it, and displays preview.
