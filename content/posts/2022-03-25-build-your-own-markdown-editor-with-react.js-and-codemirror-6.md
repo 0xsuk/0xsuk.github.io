@@ -1,10 +1,10 @@
 ---
 title: Build your own markdown editor with React.js and Codemirror 6
 date: 2022-03-25T02:41:36.133Z
-draft: ""
-comment: false
+draft: ''
+comment: true
 toc: true
-reward: true
+reward: false
 pinned: false
 featured: false
 math: true
@@ -16,7 +16,8 @@ tags:
 series: null
 images:
   - uploads/2022-03-25-12-13-39.png
----## Goal of this project
+---
+## Goal of this project
 
 Let's create a simple markdown editor that works in your browser. If I write strings in markdown format, React.js reads it, parses it, and displays preview.
 

@@ -2,7 +2,7 @@
 title: Creating a Blog with Hugo
 date: 2022-02-11T04:22:29.699Z
 draft: false
-comment: false
+comment: true
 toc: true
 reward: false
 pinned: false
@@ -13,7 +13,8 @@ tags: null
 series: null
 images:
   - /uploads/2022-02-11-02-43-09.png
----![](/uploads/2022-02-11-02-43-09.png)
+---
+![](/uploads/2022-02-11-02-43-09.png)
 
 ## Hugo - Static Site Generator
 
