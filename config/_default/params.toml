@@ -1,4 +1,4 @@
-# mainSections = ["post", "posts"] # Default to ["posts"].
+mainSections = ["agitcms", "posts"] # default "posts" # so that agitcms is aligned as series
 comment = true
 
 titleSeparator = "|" # Title separator. Default to "-".
@@ -97,7 +97,7 @@ viewer = true # Image Viewer
   # sa = true # Adaptations must be shared under the same terms.
 
 [utterances]
-  # repo = "0xsuk/0xsuk.com" # Replace with your repository.
+  repo = "0xsuk/0xsuk.com" # Replace with your repository.
   #issueTerm = "pathname" # pathname, url, title, og:title
   #label = "comment"
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
