@@ -1,7 +1,7 @@
 ---
 title: Build your own markdown editor with React.js and Codemirror 6
 date: 2022-03-25T02:41:36.133Z
-draft: ''
+draft: false
 comment: true
 toc: true
 reward: false
@@ -17,8 +17,8 @@ series: null
 images:
   - uploads/2022-03-25-12-13-39.png
 ---
-Hi suk here.  
-This post explains how to create markdown editor/previewer with React.js / Codemirror 6. I'm writing this down because I had to learn how to build markdown editor for my project ([Headless CMS with hackable markdown editor](https://github.com/0xsuk/agitcms)).  Hope this post helps someone like me. 
+Hi suk here.
+This post explains how to create markdown editor/previewer with React.js / Codemirror 6. I'm writing this down because I had to learn how to build markdown editor for my project ([Headless CMS with hackable markdown editor](https://github.com/0xsuk/agitcms)).  Hope this post helps someone like me.
 
 ## Goal of this project
 
