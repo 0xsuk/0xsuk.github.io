@@ -107,7 +107,7 @@ Go to Media section of Setting.
 
 There you specify media folder's path, and public path.  
 
-`Media Folder Path` is where you store image, gif, or movie.  
+`Media Folder Path` is where you store image, gif, or movie.
 `Media Public Path` is an url path media is served from.  
 
 For example, let's say you store media in `${root}/static/uploads`.  (where `${root}` is your static site's root folder path).  
