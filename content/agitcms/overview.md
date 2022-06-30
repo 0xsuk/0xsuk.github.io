@@ -13,7 +13,7 @@ categories: []
 tags: []
 series: []
 images:
-  - /uploads/Screenshot from 2022-06-29 20-05-04.png
+  - /uploads/agitv1.0.0.png
 ---
 ![](/uploads/agitv1.0.0.png)
 
