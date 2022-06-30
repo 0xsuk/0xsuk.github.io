@@ -1,0 +1,392 @@
+<!doctype html><html lang="en" data-palette="black"
+   data-mode="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creating a Blog with Hugo | 0xsuk&#39;s blog</title><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-NST1PH6052"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-NST1PH6052");
+</script><link rel="apple-touch-icon" href="https://0xsuk.github.io/images/icons/icon-180x180.png" sizes="180x180">
+<link rel="icon" href="https://0xsuk.github.io/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://0xsuk.github.io/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="https://0xsuk.github.io/images/icons/favicon.ico">
+<link rel="manifest" href="https://0xsuk.github.io/manifest.json">
+<meta name="keywords" content=""
+/>
+<meta
+  name="description"
+  content=""
+/><meta itemprop="name" content="Creating a Blog with Hugo">
+<meta itemprop="description" content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website."><meta itemprop="datePublished" content="2022-02-11T04:22:29+00:00" />
+<meta itemprop="dateModified" content="2022-02-11T04:22:29+00:00" />
+<meta itemprop="wordCount" content="915"><meta itemprop="image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Creating a Blog with Hugo" />
+<meta property="og:description" content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://0xsuk.github.io/posts/2022-02-11-creating-a-blog-with-hugo/" /><meta property="og:image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-11T04:22:29+00:00" />
+<meta property="article:modified_time" content="2022-02-11T04:22:29+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png" />
+
+<meta name="twitter:title" content="Creating a Blog with Hugo" />
+<meta
+  name="twitter:description"
+  content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website."
+/>
+<meta name="twitter:site" content="@0xsuk" />
+<meta name="robots" content="index, follow" /><meta itemprop="name" content="Creating a Blog with Hugo">
+<meta itemprop="description" content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website."><meta itemprop="datePublished" content="2022-02-11T04:22:29+00:00" />
+<meta itemprop="dateModified" content="2022-02-11T04:22:29+00:00" />
+<meta itemprop="wordCount" content="915"><meta itemprop="image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Creating a Blog with Hugo" />
+<meta property="og:description" content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://0xsuk.github.io/posts/2022-02-11-creating-a-blog-with-hugo/" /><meta property="og:image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-11T04:22:29+00:00" />
+<meta property="article:modified_time" content="2022-02-11T04:22:29+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png"/>
+
+<meta name="twitter:title" content="Creating a Blog with Hugo"/>
+<meta name="twitter:description" content="Hugo - Static Site Generator Hugo is a popular opensource static site generator that runs on your computer.
+We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.
+What is a static site? A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage every time users visit a website."/>
+<meta name="twitter:site" content="@0xsuk"/>
+<link rel="stylesheet" href="https://0xsuk.github.io/css/main.min.239845ebcdf55d80533cc70a2fe96cc1a9d70410c9b478774bb3f19fc13eb4f5.css" integrity="sha256-I5hF6831XYBTPMcKL&#43;lswanXBBDJtHh3S7Pxn8E&#43;tPU=" crossorigin="anonymous"><link rel="stylesheet" href="https://0xsuk.github.io/css/katex.min.d080a89e03e1eb850f547d835c186b4273f69879aa497eb8b0e88c1578bf1f0b.css" integrity="sha256-0ICongPh64UPVH2DXBhrQnP2mHmqSX64sOiMFXi/Hws=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://0xsuk.github.io/css/viewer.min.3d228794bcedbbfa0412beb8fbc1ec6973202945e42af7004f742a4d7bd620ab.css" integrity="sha256-PSKHlLztu/oEEr64&#43;8HsaXMgKUXkKvcAT3QqTXvWIKs=" crossorigin="anonymous"></head>
+  <body><script>const items=['mode','palette'];items.forEach(function(a){const b=localStorage.getItem('hbs-'+a);b&&document.body.parentElement.setAttribute('data-'+a,b)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg">
+  <div style="position: relative;" class="container">
+    <button style="position: absolute; top: 6px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button><a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-center text-lg-start mx-auto me-lg-3" href="https://0xsuk.github.io/">0xsuk&#39;s blog
+    </a>
+    <div class="offcanvas offcanvas-bottom surface" tabindex="-1" id="offcanvasSocialShare" aria-labelledby="offcanvasSocialShare">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Share</h3>
+    <button type="button" class="btn btn-sm btn-outline-primary" data-bs-dismiss="offcanvas" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  <div class="offcanvas-body">
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
+      target="_blank" href="https://twitter.com/intent/tweet?title=Creating%20a%20Blog%20with%20Hugo&url=https%3a%2f%2f0xsuk.github.io%2fposts%2f2022-02-11-creating-a-blog-with-hugo%2f">
+      <i class="fab fa-fw fa-twitter"></i> Twitter
+    </a>
+    <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2f0xsuk.github.io%2fposts%2f2022-02-11-creating-a-blog-with-hugo%2f">
+      <i class="fab fa-fw fa-facebook-f"></i> Facebook
+    </a>
+  </div>
+</div>
+    
+    <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
+      <form class="search-bar my-1" action="https://0xsuk.github.io/search">
+  <div class="input-group input-group-sm">
+    <span class="btn btn-search disabled position-absolute left-0"><i class="fas fa-fw fa-search"></i></span>
+    <input class="form-control rounded-pill" name="q" type="search" aria-label="Search">
+  </div>
+</form>
+      <ul class="navbar-nav ms-auto"><li class="nav-item">
+          <a class="nav-link" href="https://0xsuk.github.io/series/">
+            <i class="fas fa-fw fa-columns"></i>Series
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="https://0xsuk.github.io/archives/">
+            <i class="fas fa-fw fa-file-archive"></i>Archives
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="https://0xsuk.github.io/categories/">
+            <i class="fas fa-fw fa-folder"></i>Categories
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="https://0xsuk.github.io/tags/">
+            <i class="fas fa-fw fa-tags"></i>Tags
+          </a>
+        </li></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main role="main" class="container">
+      <div class="row content">
+<div class="col-lg-8">
+  <div class="container"><nav class="row card component" aria-label="breadcrumb">
+  <div class="card-body">
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="https://0xsuk.github.io/">Home</a></li><li class="breadcrumb-item"><a href="https://0xsuk.github.io/posts/">Posts</a></li><li class="breadcrumb-item active">Creating a Blog With Hugo</li></ol>
+  </div>
+</nav><div class="post-panel-wrapper">
+  <div class="d-flex flex-column component rounded post-panel">
+    
+    
+    
+    
+
+    
+  </div>
+</div>
+<article class="row card component mb-4 post">
+  <div class="card-header ">
+    <h1 class="card-title post-title">Creating a Blog With Hugo
+</h1>
+  </div>
+  <div class="card-body"><div class="post-meta">
+  <span class="post-date" title="created on 2022-02-11 13:22:29.699 &#43;0900 JST.">
+    Feb 11, 2022
+  </span><span class="post-reading-time">
+    5 min read
+  </span><span class="post-taxonomies"></span>
+</div>
+<div class="post-content mb-3"><p><img class="img-fluid" alt="" src="https://0xsuk.github.io/uploads/2022-02-11-02-43-09.png" loading="lazy"
+   width="581" height="219"
+   />
+
+</p>
+<h2 id="hugo---static-site-generator">Hugo - Static Site Generator<a class="anchor ms-1" href="#hugo---static-site-generator"><i class="fas fa-link"></i></a></h2>
+<p><a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> is a popular opensource static site generator that runs on your computer.</p>
+<p>We are going to cover how to install hugo on your computer and run it to build a fast static website or a blog.</p>
+<h2 id="what-is-a-static-site">What is a static site?<a class="anchor ms-1" href="#what-is-a-static-site"><i class="fas fa-link"></i></a></h2>
+<p>A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and serve them when users visit a website. In contrast, traditional dynamic website renders a webpage <em>every</em> time users visit a website. That&rsquo;s the big difference between static and dynamic website - Build once, or build every time - and that&rsquo;s why static websites are fast.</p>
+<p>If you are planning to build a website that is not going to be updated frequently, you want to make it static because it&rsquo;s faster. On the other hand, if you are sure that your website is going to be updated frequently, you want to make it dynamic because building every time an update occurs is painful work.</p>
+<p>As for a blog, a static site seems to be a preferred choice, and that&rsquo;s what we&rsquo;re going to make. (This blog 0xsuk.com is actually a static blog powered by Hugo!)</p>
+<p>In this article, I assume you have basic knowledge of git and github.</p>
+<h2 id="installing">Installing<a class="anchor ms-1" href="#installing"><i class="fas fa-link"></i></a></h2>
+<p>Assuming you have git installed, the only thing you need to install is Hugo.
+You don&rsquo;t need to install Golang to make Hugo work.</p>
+<p>Hugo Installation guide is documented <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreferrer">here</a></p>
+<h2 id="create-a-site">Create a site<a class="anchor ms-1" href="#create-a-site"><i class="fas fa-link"></i></a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>mkdir example <span class="o">&amp;&amp;</span> <span class="nb">cd</span> example
+<span class="ln">2</span>hugo new site .
+</code></pre></div><p>This command will create a new site generator in the specified directory.
+Here&rsquo;s the tree of directories and files.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="ln">1</span>archetypes/ - default.md
+<span class="ln">2</span>config.toml
+<span class="ln">3</span>content/
+<span class="ln">4</span>data/
+<span class="ln">5</span>layouts/
+<span class="ln">6</span>static/
+<span class="ln">7</span>themes/
+</code></pre></div><p>I&rsquo;ll explain what each folder or file is responsible for briefly.</p>
+<ul>
+<li><code>archtypes/</code> contains default <em>frontmatter</em> template default.md.</li>
+<li><code>config.toml</code> is where you configure hugo.</li>
+<li><code>content/</code> is where you put contents (blog posts)</li>
+<li><code>data/</code> is where you put meta data.</li>
+<li>files under <code>static/</code> are served from the root path of the webpage. (ex. <code>static/img.png</code> is accesible from <a href="https://yourwebsite.com/img.png" target="_blank" rel="noopener noreferrer">https://yourwebsite.com/img.png</a>)</li>
+<li><code>themes/</code> is where you put website theme (explained later)</li>
+<li>files under <code>layouts/</code> override theme layout.</li>
+</ul>
+<h2 id="install-a-theme">Install a theme<a class="anchor ms-1" href="#install-a-theme"><i class="fas fa-link"></i></a></h2>
+<p>Hugo has many premade website themes available for free and you can pick whatever you like from <a href="https://hugothemesfree.com/" target="_blank" rel="noopener noreferrer">here</a>, but for this time we&rsquo;re going to use <a href="https://hugothemesfree.com/an-extreme-fast-responsive-and-feature-rich-hugo-theme/" target="_blank" rel="noopener noreferrer">https://hugothemesfree.com/an-extreme-fast-responsive-and-feature-rich-hugo-theme/</a> which is a current theme for this blog. Note that installation varies from theme to theme, and we&rsquo;re installing the mentioned theme in the way that the author of the theme suggests.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span><span class="c1"># in the &#34;example&#34; directory</span>
+<span class="ln">2</span>git init
+<span class="ln">3</span>git submodule add https://github.com/razonyang/hugo-theme-bootstrap themes/hugo-theme-bootstrap
+<span class="ln">4</span>cp -a themes/hugo-theme-bootstrap/exampleSite/* .
+</code></pre></div><p>If you start a local server</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>hugo server
+</code></pre></div><p>and navigate to http://localhost:1313, you&rsquo;ll see a page like this
+<img class="img-fluid" alt="image" src="https://0xsuk.github.io/uploads/2022-02-11-01-39-09.png" loading="lazy"
+   width="1351" height="897"
+   />
+
+</p>
+<p>Easy. If you navigate to <code>content/</code> directory, you&rsquo;ll see many blog posts there.</p>
+<p><code>content/thisisexample.md</code> will be served from <code>/thisisexample</code> in the url, and <code>content/dir1/index.md</code> will be served from <code>/dir1</code>, if there is one.</p>
+<h2 id="customize-a-theme">Customize a theme<a class="anchor ms-1" href="#customize-a-theme"><i class="fas fa-link"></i></a></h2>
+<p>You might be wondering how you modify or customize a theme layout. That is where <code>layouts/</code> directory comes in.
+Hugo reads <code>theme/</code> directory first and builds a backbone of the site, and then Hugo reads <code>layouts/</code> directory to detect any modification. Finally, Hugo loads contents in the <code>content/</code> directory to the backbone, and your website starts.</p>
+<p>So how do you customize a theme? It&rsquo;s so easy.</p>
+<p>To modify <code>theme/[theme-name]/layouts/partial/header.html</code> for example, you have to put an alternative layout in <code>layouts/partial/header.html</code> and so forth for all other files.</p>
+<p>Costomizing more, for example, use of cookies or color palettes, heavily depends on which theme you use. Some features might be buggy so be careful! so we&rsquo;re not going to dive deeper.</p>
+<h2 id="frontmatter">Frontmatter<a class="anchor ms-1" href="#frontmatter"><i class="fas fa-link"></i></a></h2>
+<p>Try opening one markdown file in the <code>content/</code> directory. You&rsquo;ll see something placed at the top.
+Here&rsquo;s the top of <code>content/about/index.md</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="ln"> 1</span>+++
+<span class="ln"> 2</span>title = &#34;About&#34;
+<span class="ln"> 3</span>description = &#34;Hugo, the world&#39;s fastest framework for building websites&#34;
+<span class="ln"> 4</span>date = &#34;2019-02-28&#34;
+<span class="ln"> 5</span>aliases = [&#34;about-us&#34;, &#34;about-hugo&#34;]
+<span class="ln"> 6</span>author = &#34;Hugo Authors&#34;
+<span class="ln"> 7</span>reward = false
+<span class="ln"> 8</span>postDate = false
+<span class="ln"> 9</span>readingTime = false
+<span class="ln">10</span>+++
+</code></pre></div><p>This wierd thing placed at the top of every blog post is called <strong>frontmatter</strong>.</p>
+<p>Frontmatter is what specifies file&rsquo;s attributes. title, categories, and so on. The theme installed uses these information.</p>
+<h2 id="create-a-new-post">Create a new post<a class="anchor ms-1" href="#create-a-new-post"><i class="fas fa-link"></i></a></h2>
+<p>If you want to create a new post <code>newpost.md</code> in the content directory, you can create empty file <code>content/newpost.md</code>. However, this method is not preferred because writing frontmatter every time you create a new post is painful work. Hugo has a command for it.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>hugo new newpost.md
+</code></pre></div><p>Then Hugo reads <code>archtypes/default.md</code> and creates a new post <code>content/newpost.md</code> based on that file. <code>archtypes/default.md</code> is what is called <strong>frontmatter template</strong>, and you can modify it on your taste.</p>
+<h2 id="hosting">Hosting<a class="anchor ms-1" href="#hosting"><i class="fas fa-link"></i></a></h2>
+<p>Popular options for hosting are Github Pages and Netlify. Both are good, but I prefer Netlify. In either case, you have to push your hugo website into your github repository. Go to github and create a new repository. Push your local website to github repository.</p>
+<p>Then, go to <a href="https://app.netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a> and sign up with github, import a site from the repository, and your website is up. Easy.</p>
+<h2 id="managing">Managing<a class="anchor ms-1" href="#managing"><i class="fas fa-link"></i></a></h2>
+<p>Writing blog posts on text editor is kind of hard. There&rsquo;s a way to make it easy. Use a CMS - Content Management System that helps you make an update easier. There are many CMS that are suitable for static sites:</p>
+<ul>
+<li>Forestry.io</li>
+<li>Netlify CMS</li>
+<li>Frontmatter CMS</li>
+<li>Hokus CMS</li>
+</ul>
+<p>to name a few.</p>
+<p>OK, that&rsquo;s it for this article.</p>
+<p>By the way I&rsquo;m building a Headless CMS that is <em>more</em> suitable for static sites, so why not catch me on <a href="https://twitter.com/0xsuk" target="_blank" rel="noopener noreferrer">Twitter</a>?</p>
+</div></div>
+  <div class="card-footer"><div class="post-navs d-flex justify-content-evenly"><div class="post-nav post-next">
+    <a href="https://0xsuk.github.io/posts/2022-03-25-build-your-own-markdown-editor-with-react.js-and-codemirror-6/">Build Your Own Markdown Editor With React.js and Codemirror 6
+</a>
+    <i class="fas fa-fw fa-chevron-right"></i>
+  </div></div></div>
+</article><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">Comments</h2>
+  </div>
+  <div class="card-body"><script src="https://utteranc.es/client.js"
+  repo="0xsuk/0xsuk"
+  issue-term="pathname"
+  label="comment"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script></div>
+</div></div>
+</div><aside class="col-lg-4 sidebar d-flex">
+  <div class="container d-flex flex-column">
+    
+    <section class="card row text-center profile component">
+  <div class="card-body">
+    <div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" alt="0xsuk" src="https://0xsuk.github.io/images/profile.png" loading="lazy"
+   width="408" height="408"
+   />
+</div>
+    <div class="col-12 profile-meta"><div class="profile-name">0xsuk</div><div class="profile-location"><i class="fas fa-fw fa-map-marker-alt"></i>Japan</div><div class="profile-about"><i class="fas fa-fw fa-user"></i><a href="https://0xsuk.github.io/about/">About</a></div><nav class="social-links nav justify-content-center"><a class="nav-link social-link" href="mailto:iam0xsuk@gmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope"></i>
+    </a><a class="nav-link social-link" target="_blank" href="https://github.com/0xsuk" title="GitHub" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-github"></i>
+      </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/0xsuk" title="Twitter" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-twitter"></i>
+      </a></nav>
+</div>
+  </div>
+</section>
+  <div class="post-toc row mb-4 card component" id="postTOC">
+  <div class="card-header">
+    <h2 class="card-title">Contents</h2>
+  </div>
+  <div class="card-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo---static-site-generator">Hugo - Static Site Generator</a></li>
+    <li><a href="#what-is-a-static-site">What is a static site?</a></li>
+    <li><a href="#installing">Installing</a></li>
+    <li><a href="#create-a-site">Create a site</a></li>
+    <li><a href="#install-a-theme">Install a theme</a></li>
+    <li><a href="#customize-a-theme">Customize a theme</a></li>
+    <li><a href="#frontmatter">Frontmatter</a></li>
+    <li><a href="#create-a-new-post">Create a new post</a></li>
+    <li><a href="#hosting">Hosting</a></li>
+    <li><a href="#managing">Managing</a></li>
+  </ul>
+</nav>
+  </div>
+</div><section class="featured-posts row card component">
+    <div class="card-header">
+      <h2 class="card-title">Featured Posts</h2>
+    </div>
+    <div class="card-body">
+      <ul class="post-list"><li>
+          <a href="https://0xsuk.github.io/agitcms-v0.0.2-alpha/how-to-use-agitcms/">How to Use Agit CMS
+</a>
+        </li></ul>
+    </div>
+  </section><section class="recent-posts row card component">
+  <div class="card-header">
+    <h2 class="card-title">Recent Posts</h2>
+  </div>
+  <div class="card-body">
+    <ul class="post-list"><li>
+        <a href="https://0xsuk.github.io/posts/2022-03-25-build-your-own-markdown-editor-with-react.js-and-codemirror-6/">Build Your Own Markdown Editor With React.js and Codemirror 6
+</a>
+      </li><li>
+        <a href="https://0xsuk.github.io/posts/2022-02-11-creating-a-blog-with-hugo/">Creating a Blog With Hugo
+</a>
+      </li></ul>
+  </div>
+</section><section class="categories-taxonomies row card component">
+      <div class="card-header">
+        <h2 class="card-title">
+          <a href="https://0xsuk.github.io/categories">Categories</a>
+        </h2>
+      </div>
+      <div class="card-body">
+        <div class="py-2"><a href="https://0xsuk.github.io/categories/web-dev/" class="badge rounded post-taxonomy" title="Web Dev">
+            Web Dev<span class="badge badge-sm text-white bg-accent ms-1">2</span></a></div>
+      </div>
+    </section><section class="tags-taxonomies row card component">
+      <div class="card-header">
+        <h2 class="card-title">
+          <a href="https://0xsuk.github.io/tags">Tags</a>
+        </h2>
+      </div>
+      <div class="card-body">
+        <div class="py-2"><a href="https://0xsuk.github.io/tags/react.js/" class="badge rounded post-taxonomy" title="React.js">
+            React.js<span class="badge badge-sm text-white bg-accent ms-1">2</span></a><a href="https://0xsuk.github.io/tags/build-your-own-x/" class="badge rounded post-taxonomy" title="build-your-own-x">
+            build-your-own-x<span class="badge badge-sm text-white bg-accent ms-1">1</span></a></div>
+      </div>
+    </section>
+    
+  </div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><nav class="social-links nav justify-content-center mb-2"><a class="nav-link social-link" href="mailto:iam0xsuk@gmail.com" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope"></i>
+    </a><a class="nav-link social-link" target="_blank" href="https://github.com/0xsuk" title="GitHub" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-github"></i>
+      </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/0xsuk" title="Twitter" rel="noopener noreferrer">
+        <i class="fa-fw fa-2x fab fa-twitter"></i>
+      </a></nav>
+<div class="copyright mb-2">
+  Copyright © 2022 0xsuk. All Rights Reserved.
+</div>
+
+
+</footer>
+<script src="https://0xsuk.github.io/js/main.63de5e46379791c474cfb750221ee20c6c2b8cfcf2d28b115e7197b95b2f910b.js" integrity="sha256-Y95eRjeXkcR0z7dQIh7iDGwrjPzy0osRXnGXuVsvkQs=" crossorigin="anonymous" defer></script><script src="https://0xsuk.github.io/js/icons.min.8ddcaafc364ff0296c2209c5495287f0de039b852da9b24847f94c198b7639b6.js" integrity="sha256-jdyq/DZP8ClsIgnFSVKH8N4Dm4UtqbJIR/lMGYt2ObY=" crossorigin="anonymous" defer></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('https:\/\/0xsuk.github.io\/service-worker.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+    }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+    });
+  });
+}
+</script><script src="https://0xsuk.github.io/js/viewer.min.652118a9fbf3403cdfde4026209f97ace22f9e334f0b45a33431a221b3db46a8.js" integrity="sha256-ZSEYqfvzQDzf3kAmIJ&#43;XrOIvnjNPC0WjNDGiIbPbRqg=" crossorigin="anonymous" defer></script><script defer src="https://0xsuk.github.io/js/katex.min.a575e93a07f02f7e58ee9002aea3b4e75163d4fa8ea3a627e90e7fafd5c718fa.js" integrity="sha256-pXXpOgfwL35Y7pACrqO051Fj1PqOo6Yn6Q5/r9XHGPo=" crossorigin="anonymous"></script>
+
+</body>
+</html>
