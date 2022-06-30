@@ -1,4 +1,5 @@
-mainSections = ["agitcms", "posts"] # default "posts" # so that agitcms is aligned as series
+# mainSections = ["agitcms", "posts"] # default "posts" # so that agitcms is aligned as series
+mainSections = ["posts"] 
 comment = true
 
 titleSeparator = "|" # Title separator. Default to "-".

@@ -4,16 +4,16 @@ date: 2022-06-03T12:50:21.000Z
 draft: false
 comment: true
 toc: true
-type: agitcms
+type: docs
 reward: false
 pinned: false
-featured: true
+featured: false
 math: false
 categories:
   - Web Dev
 tags:
   - React.js
-series:
+series: null
 images:
   - >-
     https://user-images.githubusercontent.com/97814789/171836599-b3d0a87e-186b-4bb6-afa6-049fc9c5bd3b.png
