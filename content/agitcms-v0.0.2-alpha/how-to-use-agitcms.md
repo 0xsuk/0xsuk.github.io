@@ -30,7 +30,7 @@ Only thing you need is a static site, powered by whatever "markdown based" stati
 
 Agit CMS is NOT a git based CMS, or API based CMS. It's a desktop app for writing markdown posts. So you need ready-to-run static sites on your local PC.
 
-In this document I am going to use my blog ( [0xsuk.com](https://0xsuk.com)) powered by Hugo as a static site example.
+In this document I am going to use my blog ( [0xsuk.github.io](https://0xsuk.github.io)) powered by Hugo as a static site example.
 
 ## Add a new site
 

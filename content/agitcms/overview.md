@@ -24,14 +24,12 @@ You need to have a ready-to-run static sites on your local computer, as Agit CMS
 
 ## Features
 - Vertical split style markdown editor.
-
 - type-aware frontmatter interface.
 
-![](/uploads/frontmatterv1.0.0.png)
-
+![](/uploads/2022-07-03-19:10:57.png)
 
 Agit CMS provides a frontmatter interface which respects the type of each frontmatter property.  
-Above corresponds to writing yaml below.
+Above corresponds to the yaml below.
 ```yaml
 ---
 title: The Best CMS for Markdown Blogs
@@ -55,25 +53,29 @@ images:
 
 - Integrated Terminal
 
-![](/uploads/interv1.0.0.png)
+Open an integrated terminal by pressing `Ctrl+@`.  
+![](/uploads/2022-07-03-19:13:27.png)
 
 
-Open an integrated terminal by pressing `Ctrl+@`.
 
-- Other features
-  -  mathjax rendering: $ a + b = c$
-  -  image pasting into editor
-  -  pin folder in the sidebar
-  -  yaml/toml as frontmatter language
-  -  custom frontmatter delimiters
 
-- Upcoming features
-  - custom editor snippet
-  - custom editor toolbar
-  - custom editor syntax
-  - custom editor keymap
-  - custom markdown rendering
-  - media interface
+Other features
+-  mathjax rendering: $ a + b = c$
+-  image pasting into editor
+-  pin folder in the sidebar
+-  custom frontmatter language(yaml/toml) & delimiters
+
+
+Upcoming features  
+- custom css
+- custom editor snippet
+- custom editor toolbar
+- custom editor syntax
+- custom editor keymap
+- custom markdown rendering
+- media interface
+
+Agit CMS tries to be a customizable headless CMS.
 
 ## Docs for older versions
 

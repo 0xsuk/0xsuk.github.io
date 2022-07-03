@@ -18,7 +18,7 @@ images:
   - uploads/2022-03-25-12-13-39.png
 ---
 Hi suk here.
-This post explains how to create markdown editor/previewer with React.js / Codemirror 6. I'm writing this down because I had to learn how to build markdown editor for my project ([Headless CMS with hackable markdown editor](https://github.com/0xsuk/agitcms)).  Hope this post helps someone like me.
+This post explains how to create markdown editor/previewer with React.js / Codemirror 6. I'm writing this down because I had to learn how to build markdown editor for my project ([a desktop based headless CMS for markdown blogs](https://github.com/0xsuk/agitcms)).  Hope this post helps someone like me.
 
 ## Goal of this project
 

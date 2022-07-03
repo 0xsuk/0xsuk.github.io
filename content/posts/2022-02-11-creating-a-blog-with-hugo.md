@@ -28,7 +28,7 @@ A static site prebuilds HTML/CSS/JavaScript code that will work as webpages, and
 
 If you are planning to build a website that is not going to be updated frequently, you want to make it static because it's faster. On the other hand, if you are sure that your website is going to be updated frequently, you want to make it dynamic because building every time an update occurs is painful work.
 
-As for a blog, a static site seems to be a preferred choice, and that's what we're going to make. (This blog 0xsuk.com is actually a static blog powered by Hugo!)
+As for a blog, a static site seems to be a preferred choice, and that's what we're going to make. (This blog [0xsuk.github.io](https://0xsuk.github.io) is actually a static blog powered by Hugo!)
 
 In this article, I assume you have basic knowledge of git and github.
 
