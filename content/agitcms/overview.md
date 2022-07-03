@@ -8,7 +8,7 @@ toc: true
 reward: false
 pinned: false
 featured: false
-math: false
+math: true
 categories: []
 tags: []
 series: []
@@ -16,8 +16,6 @@ images:
   - /uploads/agitv1.0.0.png
 ---
 ![](/uploads/agitv1.0.0.png)
-
-# Overview
 
 Agit CMS is a multi-platform desktop application built on top of Electron, which works as a frontend interface for any static site generator, like Hugo and Jekyll.  
 
@@ -62,7 +60,7 @@ images:
 Open an integrated terminal by pressing `Ctrl+@`.
 
 - Other features
-  -  mathjax rendering
+  -  mathjax rendering: $ a + b = c$
   -  image pasting into editor
   -  pin folder in the sidebar
   -  yaml/toml as frontmatter language
@@ -76,8 +74,8 @@ Open an integrated terminal by pressing `Ctrl+@`.
   - custom markdown rendering
   - media interface
 
-  ## Docs for older versions
+## Docs for older versions
 
-  navigate to `https://0xsuk.github.io/agitcms-v${VERSION}` where ${VERSION} is a version of Agit CMS.
+navigate to `https://0xsuk.github.io/agitcms-v${VERSION}` where ${VERSION} is a version of Agit CMS.
 
-  Example: `https://0xsuk.github.io/agitcms-v0.0.2-alpha`
+Example: `https://0xsuk.github.io/agitcms-v0.0.2-alpha`
