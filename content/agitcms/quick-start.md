@@ -44,7 +44,7 @@ Try starting a server of your static sites generator.
 In hugo: `hugo server`  
 In jekyll: `jekyll server`
 
-
+![](/uploads/2022-07-03-16:38:13.png)
 
 Now your preview server is running on your host!
 
@@ -59,6 +59,7 @@ Type some text, right pane automatically renders markdown in a Github flavored s
 Click on a Frontmatter tab in the editor.
 Agit CMS automatically scans frontmatter section of your existing post, and provides a **type-aware frontmatter editor** like this.
 
+![](/uploads/2022-07-03-16:50:25.png)
 
 which is equal to
 ```markdown
