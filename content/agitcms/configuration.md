@@ -1,6 +1,7 @@
 ---
 title: Configuration
 type: docs
+weight: '1'
 date: '2022-07-03T17:52:46+09:00'
 draft: false
 comment: true

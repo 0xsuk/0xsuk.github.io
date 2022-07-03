@@ -1,6 +1,7 @@
 ---
 title: Quick Start
 type: docs
+weight: 2
 date: 2022-07-03T08:01:37.420Z
 draft: false
 comment: true
