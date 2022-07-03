@@ -16,7 +16,7 @@ images:
   - '/uploads/2022-07-03-16:38:13.png'
 ---
 ## Installation
-Install latest binary from [here ](https://github.com/0xsuk/agitcms/releases)
+Install latest binary from [here](https://github.com/0xsuk/agitcms/releases)
 
 {{< alert `
 When downloading a binary, some warning will be displayed because Agit CMS is yet to be trusted by Windows/Mac. To suppress warning and continue, please reference below. Mac: Find agitcms in Finder. Click on the app pressing ctrl key. Select "Open". (Open a Mac app from an unidentified developer - Apple Support) Windows: If "Windows protected your PC", click on "More info", and select "Run anyway".
@@ -55,6 +55,7 @@ Agit CMS provides a markdown editor with nice syntax highlighting and keymaps.
 
 Type some text, right pane automatically renders markdown in a Github flavored style,
 
+### Frontmatter Editor
 Click on a Frontmatter tab in the editor.
 Agit CMS automatically scans frontmatter section of your existing post, and provides a **type-aware frontmatter editor** like this.
 
@@ -83,4 +84,3 @@ images:
 You can confirm that for example, since `draft` is a boolean value, Agit CMS provides a boolean toggler for `draft`.
 
 You can learn more about how to configure frontmatter language, delimiters and its types here.
-
