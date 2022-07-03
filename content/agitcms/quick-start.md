@@ -1,7 +1,7 @@
 ---
 title: Quick Start
 type: docs
-weight: 2
+weight: '99'
 date: 2022-07-03T08:01:37.420Z
 draft: false
 comment: true
@@ -85,4 +85,4 @@ images:
 
 You can confirm that for example, since `draft` is a boolean value, Agit CMS provides a boolean toggler for `draft`.
 
-You can learn more about how to configure frontmatter language, delimiters and its types here.
+You can learn more about how to configure frontmatter [language](/agitcms/configuration/#frontmatter-language), [delimiters](/agitcms/configuration/#frontmatter-delimiters) and its [types](/agitcms/configuration/#frontamtter-template) in the next page. 
