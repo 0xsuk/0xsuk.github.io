@@ -16,9 +16,67 @@ images:
   - '/uploads/2022-07-03-16:38:13.png'
 ---
 ## Installation
+Install latest binary from [here ](https://github.com/0xsuk/agitcms/releases)
 
-## Adding a new site
+{{< alert `
+When downloading a binary, some warning will be displayed because Agit CMS is yet to be trusted by Windows/Mac. To suppress warning and continue, please reference below. Mac: Find agitcms in Finder. Click on the app pressing ctrl key. Select "Open". (Open a Mac app from an unidentified developer - Apple Support) Windows: If "Windows protected your PC", click on "More info", and select "Run anyway".
+` warning >}} 
 
-## Starting a local server
+## Adding a site
+{{<
+Agit CMS is a frontend interface for static site generators. You need a ready-to-run static site on your local computer.
+Open Agit CMS and click NEW button. 
+Type your site’s name, and root folder path of the static site.
+These two configurations cannot be changed afterwards unless you modify ~/.agitcms/config.json directly.
 
-## Modifying a post
+Once you add a new site, click on it, then Agit CMS provides a file explorer where you can navigate folders and files with .md extension.
+
+Click PIN button at the top to pin a folder or a file to left sidebar for easy access.
+
+Integrated Terminal
+Try starting a server of your static sites generator.
+
+Press Control + @ to open up a integrated terminal.
+
+In hugo: hugo server
+In jekyll: jekyll server
+
+
+
+Now your preview server is running on your host!
+
+Modifying a post
+Click on a markdown file you want to edit in file explorer.
+
+Agit CMS provides a markdown editor with nice syntax highlighting and keymaps.
+
+Type some text, right pane automatically renders markdown in a Github flavored style,
+
+Click on a Frontmatter tab in the editor.
+Agit CMS automatically scans frontmatter section of your existing post, and provides a type-aware frontmatter editor like this.
+
+
+which is equal to
+
+---
+title: Quick Start
+type: docs
+date: '2022-07-03T16:11:40+09:00'
+draft: false
+comment: true
+toc: true
+reward: false
+pinned: false
+featured: false
+math: false
+categories: []
+tags: []
+series: []
+images:
+  - '![](/uploads/2022-07-03-16:38:13.png)'
+---
+MD
+You can confirm that for example, draft is a boolean value so that Agit CMS is a boolean editor for draft.
+
+You can learn more about how to configure frontmatter language, delimiters and its types here.
+
