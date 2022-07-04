@@ -1,7 +1,7 @@
 ---
-title: null
-type: null
-weight: null
+title: Integrated Terminal
+type: docs
+weight: '96'
 date: '2022-07-04T16:18:56+09:00'
 draft: false
 comment: true

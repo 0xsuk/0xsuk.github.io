@@ -1,7 +1,7 @@
 ---
-title: null
-type: null
-weight: null
+title: Bugs and Questions
+type: docs
+weight: '95'
 date: '2022-07-04T16:23:37+09:00'
 draft: false
 comment: true
