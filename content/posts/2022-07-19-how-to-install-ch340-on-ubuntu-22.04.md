@@ -1,6 +1,6 @@
 ---
-title: null
-type: null
+title: How to install CH340 on Ubuntu 22.04
+type: ''
 weight: null
 date: '2022-07-19T16:26:18+09:00'
 draft: false
@@ -10,8 +10,10 @@ reward: false
 pinned: false
 featured: false
 math: false
-categories: []
-tags: []
+categories:
+  - Robotics
+tags:
+  - Arduino
 series: []
 images: []
 ---
