@@ -17,7 +17,7 @@ tags:
 series: []
 images: []
 ---
-Most linux has built in driver for ch340, except for Ubuntu 22.04.
+Most linux have built in driver for ch340, except for Ubuntu 22.04.
 
 There's a couple of things to do if you want to upload code to arduino clone from Ubuntu 22.04.
 
