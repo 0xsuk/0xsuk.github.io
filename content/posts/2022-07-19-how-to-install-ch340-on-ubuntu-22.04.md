@@ -40,4 +40,4 @@ I use arduino IDE to upload code to my arduino compatible ESP32.
 Set proper serial port.
 ![](/uploads/2022-07-19-16:34:48.png)
 
-Then everything worked right way.
+Then everything will work right away.
